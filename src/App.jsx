@@ -59,7 +59,7 @@ function App() {
                     >
                       <a
                         className="px-2 py-1 text-lg mt-2 bg-blue-700 text-white rounded-lg"
-                        href={`${import.meta.env.VITE_opeasea_base_url}${
+                        href={`https://testnets.opensea.io/assets/mumbai/${
                           import.meta.env.VITE_contract_address
                         }/${x.data[index]}`}
                       >
